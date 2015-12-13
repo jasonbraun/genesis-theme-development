@@ -11,14 +11,11 @@
 }
 
 .site-inner {
-	padding: 0 20px;
-}
-
-.container-inner {
 	max-width: 1380px;
-	min-width: 1380px;
-	width: 100%;
-	margin: 0 auto;
+	background-color: #f0f0f0;
+	margin: -60px auto 0;
+	padding: 0 20px;
+	margin-bottom: 60px;
 }
 
 .content-sidebar-wrap {
@@ -33,24 +30,6 @@
 	background-color: #fff;
 	position: relative;
 	float: right;
-}
-
-/* boxed */
-
-.boxed {
-	#wrapper {
-		max-width: 1380px;
-		margin: 0 auto;
-		-webkit-box-shadow: 6px 0 0 rgba(0, 0, 0, 0.04), -6px 0 0 rgba(0, 0, 0, 0.04);
-		box-shadow: 6px 0 0 rgba(0, 0, 0, 0.04), -6px 0 0 rgba(0, 0, 0, 0.04);
-	}
-	.container {
-		padding: 0;
-	}
-	#page {
-		background: #eaeaea;
-		padding-bottom: 1px;
-	}
 }
 
 /*  base : layout columns
