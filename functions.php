@@ -54,6 +54,9 @@ add_action( 'genesis_after_content', 'genesis_get_sidebar_alt' );
 add_image_size( 'home-top', 780, 354, TRUE );
 add_image_size( 'home-middle', 375, 175, TRUE );
 
+//* Add Page Title area above Content
+get_template_part('lib/page-title');
+
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
