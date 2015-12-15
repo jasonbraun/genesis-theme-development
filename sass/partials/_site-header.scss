@@ -7,7 +7,7 @@
 	position: relative;
 	padding-bottom: 60px;
 	.wrap {
-		max-width: 1380px;
+		max-width: $site-max-width;
 		margin: 0 auto;
 	}
 	.title-area {
@@ -15,9 +15,16 @@
 		position: relative;
 		display: table;
 	}
-	.h2 {
+	h2 {
 		&.site-description {
 			font-weight: 300;
+			font-size: 16px;
+			font-style: italic;
+			color: rgba(255, 255, 255, 0.5);
+			float: left;
+			margin-left: 20px;
+			line-height: 60px;
+			padding: 10px 0;
 		}
 	}
 }
@@ -51,16 +58,6 @@
 	display: block;
 	margin: 0 auto;
 	max-height: 400px;
-}
-
-#header-ads {
-	float: right;
-	h3 {
-		display: none;
-	}
-	img {
-		display: block;
-	}
 }
 
 /*  header : search

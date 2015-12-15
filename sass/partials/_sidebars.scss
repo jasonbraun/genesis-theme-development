@@ -1,6 +1,18 @@
 /*  base : sidebar
 /* ------------------------------------ */
 
+.widget {
+	color: $color-widget-link;
+	font-size: 15px;
+	overflow: hidden;
+	h4.widget-title {
+		font-size: 15px;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0 0 6px 0;
+	}
+}
+
 .sidebar {
 	padding-bottom: 20px;
 	position: relative;
@@ -27,6 +39,7 @@
 			color: #fff;
 			text-transform: uppercase;
 			padding: 3px 0;
+			margin: 0;
 		}
 	}
 }
